@@ -1,7 +1,7 @@
 {
   "name": "ld38",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ludum Dare 38 - A Small World",
   "main": "index.js",
   "scripts": {
     "build": "webpack --progress --colors",
@@ -13,7 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jses": "^1.0.0",
     "pixi.js": "^4.5.1"
   },
   "devDependencies": {

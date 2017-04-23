@@ -3,9 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>LD 38 - A Small World</title>
+    <style>
+      html, body, div, canvas {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
     <script src="/dist/bundle.js"></script>
   </head>
   <body>
-
+    <canvas id="game"></canvas>
+    <script>
+      Game.start(document.getElementById('game'));
+    </script>
   </body>
 </html>
