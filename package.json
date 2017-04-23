@@ -1,0 +1,27 @@
+{
+  "name": "ld38",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "watch": "npm run build -- --watch",
+    "start": "http-server -p 3010",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jses": "^1.0.0",
+    "pixi.js": "^4.5.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "http-server": "^0.9.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^2.4.1"
+  }
+}
